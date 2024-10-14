@@ -1,0 +1,17 @@
+This project is a task management app built using HTML, CSS, Bootstrap, and JavaScript. It allows users to Create, Read, Update, and Delete (CRUD) tasks, while maintaining a sleek and user-friendly interface. Tasks are stored in the browser’s localStorage, ensuring that they persist even after the page is refreshed.
+
+Features
+Add Tasks: Users can add tasks by typing into an input field and clicking the "Add" button.
+View Tasks: All tasks are displayed in a list, making it easy for users to manage them.
+Mark Tasks as Completed: Users can check/uncheck tasks as completed, with completed tasks being marked with a strikethrough.
+Delete Tasks: Users can delete tasks using the delete button next to each task.
+Persistent Storage: Tasks are stored in the browser's local storage, ensuring that they are not lost after refreshing the page or closing the browser.
+Technologies Used
+HTML: For the structure of the application.
+CSS/Bootstrap: For styling and responsive design.
+JavaScript: For dynamic behavior and CRUD operations.
+LocalStorage: To persist tasks in the browser even after the session ends.
+Project Structure
+todo.html: The main HTML file that contains the layout and structure of the task manager.
+todo.css: The CSS file that styles the app using custom styling and Bootstrap.
+todo.js: JavaScript file that handles the logic for adding, reading, updating, and deleting tasks, as well as maintaining them in the localStorage.
